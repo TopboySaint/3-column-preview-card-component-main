@@ -113,6 +113,10 @@ html {
 /* Media Query for responsiveness */
 
 @media screen and (max-width: 475px) {
+    body,
+html {
+  display: block;
+}
   .cardbox {
     display: block;
   }
