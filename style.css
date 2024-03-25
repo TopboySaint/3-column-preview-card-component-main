@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&display=swap');
+body{
+  display: flex;
+  align-items:center;
+  background: hsl(0, 0%, 95%);
+  justify-content: center;
+}
+.cardbox{
+  display: flex;
+}
+.card{
+  width: 290px;
+  height: 450px;
+  border-radius: 10px 0px 0px 10px;
+  background: hsl(31, 77%, 52%);
+}
+.card2{
+  width: 290px;
+  height: 450px;
+  background: hsl(184, 100%, 22%);
+}
+.card3{
+  width: 290px;
+  height: 450px;
+  background: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+.header{
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  padding: 0px 40px;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+.paragraph{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 40px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.bttn{
+  width: 120px;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+  font-weight: 500;
+  color: hsl(31, 77%, 52%);
+  background: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+}
+.bttn2{
+  width: 120px;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+  font-weight: 500;
+  color: hsl(184, 100%, 22%);
+  background: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+}
+.bttn3{
+  width: 120px;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+  font-weight: 500;
+  color: hsl(179, 100%, 13%);
+  background: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+}
+.bttn:hover{
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #fff;
+  background:hsl(31, 77%, 52%);
+}
+.bttn2:hover{
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #fff;
+    background:hsl(184, 100%, 22%);
+  }
+  .bttn3:hover{
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #fff;
+    background:hsl(179, 100%, 13%);
+  }
