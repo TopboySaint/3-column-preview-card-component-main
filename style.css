@@ -118,7 +118,8 @@ html {
   display: block;
 }
   .cardbox {
-    display: block;
+      display: block;
+      margin-left:50px;
   }
   .card {
     border-radius: 10px 10px 0px 0px;
