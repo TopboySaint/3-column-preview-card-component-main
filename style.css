@@ -120,11 +120,13 @@ html {
   .cardbox {
       display: block;
       margin-left:40px;
-  }
-  .card {
+    }
+    .card {
+    margin-top: 2rem;
     border-radius: 10px 10px 0px 0px;
   }
   .card3 {
+    /* margin-bottom: 3rem; */
     border-radius: 0px 0px 10px 10px;
   }
 }
